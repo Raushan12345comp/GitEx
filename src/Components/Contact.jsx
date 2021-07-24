@@ -1,7 +1,4 @@
-import React from "react";
-import {
-  Form
-} from "reactstrap";
+import React from "react"
 
 const Contact = () => {
   return (
@@ -13,7 +10,7 @@ const Contact = () => {
         </div>
        
         <div className="inputs_item">
-        <Form
+        <form
                 action="contact"
                 name="contact"
                 method="POST"
@@ -62,7 +59,7 @@ const Contact = () => {
           <button  type="submit" class="btn btn-success">
             SEND
           </button>
-          </Form>
+          </form>
         </div>
      
       </div>
